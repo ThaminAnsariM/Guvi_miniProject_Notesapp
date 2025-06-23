@@ -19,7 +19,7 @@ function Notecard({ note, index, onSave, onSoftDelete, onTogglePin  }) {
   onSubmit={formik.handleSubmit}
   className="relative bg-white shadow-lg rounded-xl p-5 w-80 hover:shadow-2xl transition-shadow duration-300"
 >
-  {/* Pin icon top-right */}
+  
   <button
     type="button"
     onClick={() => onTogglePin(index)}

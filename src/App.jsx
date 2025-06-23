@@ -67,7 +67,7 @@ function App() {
                   .sort(
                     (a, b) =>
                       (b.pinned === true ? 1 : 0) - (a.pinned === true ? 1 : 0)
-                  ) // pinned notes first
+                  ) 
                   .map((note) => (
                     <Notecard
                       key={note.index}
@@ -75,7 +75,7 @@ function App() {
                       note={note}
                       onSave={saveNote}
                       onSoftDelete={softDeleteNote}
-                      onTogglePin={togglePin} // pass the pin handler
+                      onTogglePin={togglePin} 
                     />
                   ))}
               </div>
