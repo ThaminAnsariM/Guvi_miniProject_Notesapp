@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { useState, useEffect } from "react";
-import Notecard from "./src/Components/Notecard";
-import TrashPage from "./src/Pages/TrashPage";
-import Nav from "./src/Components/Nav";
+import Notecard from "./Components/Notecard";
+import TrashPage from "./pages/TrashPage";
+import Nav from "./Components/Nav";
 
 function App() {
   const [notes, setNotes] = useState([]);
